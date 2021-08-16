@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Console{
+    margin-bottom: 20px
+}
+
+.Block{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: yellow;
+}
+
+.ChangeColorBtn{
+    display: block;
+    width: 100%;
+    margin-top: 20px
+}
